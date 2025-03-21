@@ -1,0 +1,40 @@
+name: haasib_nafsak
+description: تطبيق ديني لمحاسبة النفس اليومية
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+  encrypt: ^5.0.1
+  uuid: ^3.0.7
+  intl: ^0.18.0
+  fl_chart: ^0.62.0
+  path_provider: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # Temporarily commenting out fonts for testing
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Cairo-Light.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/Cairo-Medium.ttf
+  #         weight: 500
